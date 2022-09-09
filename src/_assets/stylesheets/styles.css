@@ -2,13 +2,13 @@
 @import 'utils/_accessibility.css';
 
 body {
-	background: url('../images/black-myst.jpg') repeat;
+	background: url('./../images/black-myst.jpg') repeat;
 }
 #app {
 	@apply mx-auto m-10 sm:border border-transparent min-w-min max-w-screen-md min-h-screen flex;
 	@apply border-t-[30px] border-l-[30px] border-r-[30px] border-b-[30px];
 	@apply sm:border-l-[100px] sm:border-r-[100px] sm:border-t-[100px] sm:border-b-[100px];
-	border-image: url('../images/black-myst-border.png') 100;
+	border-image: url('./../images/black-myst-border.png') 100;
 }
 
 #content {
