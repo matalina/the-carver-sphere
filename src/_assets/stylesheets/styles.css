@@ -1,6 +1,46 @@
 @import 'utils/_tailwind.css';
 @import 'utils/_accessibility.css';
 
+body {
+	background: url('../images/black-myst.jpg') repeat;
+}
+#app {
+	@apply mx-auto m-10 sm:border border-transparent min-w-min max-w-screen-md min-h-screen flex;
+	@apply border-t-[30px] border-l-[30px] border-r-[30px] border-b-[30px];
+	@apply sm:border-l-[100px] sm:border-r-[100px] sm:border-t-[100px] sm:border-b-[100px];
+	border-image: url('../images/black-myst-border.png') 100;
+}
+
+#content {
+	@apply  bg-white grow;
+}
+
+h1 {
+	@apply text-4xl font-bold mb-5;
+}
+
+/** bottom margin of block level elements */
+header, main, .hero, p, hr {
+	@apply mb-3;
+}
+
 a {
-	@apply text-ws-blue-500 underline;
+	@apply text-purple-500 underline font-bold;
+}
+a:hover, a:focus {
+	@apply text-purple-900;
+}
+
+a.button {
+	@apply bg-purple-500 text-purple-200 border border-purple-900 rounded py-3 px-5 no-underline;
+}
+a.button:hover, a.button:focus {
+	@apply bg-purple-900;
+}
+
+.hero {
+	@apply w-full py-10 px-5 text-center bg-purple-50 rounded-lg border-purple-900 text-purple-900 border;
+}
+.hero p {
+	@apply text-lg mb-10;
 }

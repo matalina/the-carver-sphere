@@ -70,3 +70,8 @@ dist
 src/static/app.min.js
 src/static/styles.min.css
 src/_includes/styles.min.css
+
+# IDE folders
+.vs_code
+.lh
+.idea

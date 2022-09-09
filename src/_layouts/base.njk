@@ -13,15 +13,32 @@
         {% endif %}
 
         <!-- Try and serve Google Fonts in the most efficent way possible -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
         <noscript>
-            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" type="text/css"/>
+            <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
         </noscript>
     </head>
     <body>
-        <a href="#main" class="skip-link">Skip to main content</a>
-        {{ content | safe }}
+        <div id="app">
+            <div id="content" class="flex flex-col">
+                <header class="bg-white sm:flex justify-between items-center">
+                    <a href="#main" class="skip-link">Skip to main content</a>
+                    <a href="/"><img src="{{ site.url }}/images/the_carver_sphere_logo.png" width=64 alt="The Carver Sphere"/></a>
+                    {% include 'nav.njk' %}
+                </header>
+
+                <main id="main" class="bg-white grow flex-1">
+                    {{ content | safe }}
+                </main>
+
+                <footer class="text-sm text-center p-2 bg-purple-50 text-purple-400 border border-purple-400 rounded-lg">
+                    <p>Copyright &copy; 2022</p>
+                    <div>The Carver Sphere is unofficial Fan Content permitted under the <a href="https://company.wizards.com/en/legal/fancontentpolicy" class="text-purple-400">Fan Content Policy</a>. Not approved and/or endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. &copy; Wizards of the Coast LLC</div>
+                </footer>
+            </div>
+        </div>
     </body>
     <script src="/static/app.min.js" defer></script>
 </html>

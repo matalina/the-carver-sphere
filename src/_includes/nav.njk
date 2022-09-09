@@ -1,0 +1,16 @@
+<nav>
+  {% set navPages = collections.all | eleventyNavigation %}
+  <ul class="flex justify-end">
+    {%- for entry in navPages %}
+    <li class="border-b-4 {% if entry.url == page.url %}border-purple-600{% else %}border-transparent hover:border-purple-300 focus:border-purple-300{% endif %}">
+      <a class="block px-5 py-3 no-underline" href="{{ entry.url }}">{{ entry.title }}</a>
+    </li>
+    {%- endfor %}
+    <li class="border-b-4 border-transparent hover:border-purple-300 focus:border-purple-300">
+      <a class="block px-5 py-3 no-underline" href="" target="_blank">Discord</a>
+    </li>
+    <li class="border-b-4 border-transparent hover:border-purple-300 focus:border-purple-300">
+      <a class="block px-5 py-3 no-underline" href="https://dndbeyond.com" target="_blank">D&D Beyond</a>
+    </li>
+  </ul>
+</nav>
