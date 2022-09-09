@@ -7,8 +7,8 @@ body {
 #app {
 	@apply mx-auto m-10 sm:border border-transparent min-w-min max-w-screen-md min-h-screen flex;
 	@apply border-t-[30px] border-l-[30px] border-r-[30px] border-b-[30px];
-	@apply sm:border-l-[100px] sm:border-r-[100px] sm:border-t-[100px] sm:border-b-[100px];
-	border-image: url('https://carver-sphere.just-us.net/images/black-myst-border.png') 100;
+	@apply sm:border-l-[80px] sm:border-r-[80px] sm:border-t-[80px] sm:border-b-[80px];
+	border-image: url('https://carver-sphere.just-us.net/images/black-myst-border.png') 70;
 }
 
 #content {
