@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
 	// PairedShortcodes
 	Object.keys(paired).forEach((name) => {
 		eleventyConfig.addPairedShortcode(name, paired[name]);
-	});
+	});	
 
 	// This allows Eleventy to watch for file changes during local development.
 	eleventyConfig.setUseGitIgnore(false);

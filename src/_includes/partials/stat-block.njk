@@ -1,0 +1,52 @@
+<div class="abilities">
+  <div class="ability-block">
+    <div class="ability-name">str</div>
+    {% stat stats.str %}
+  </div>
+  <div class="ability-block">
+    <div class="ability-name">dex</div>
+    {% stat stats.dex %}
+  </div>
+  <div class="ability-block">
+    <div class="ability-name">con</div>
+    {% stat stats.con %}
+  </div>
+  <div class="ability-block">
+    <div class="ability-name">int</div>
+    {% stat stats.int %}
+  </div>
+  <div class="ability-block">
+    <div class="ability-name">wis</div>
+    {% stat stats.wis %}
+  </div>
+  <div class="ability-block">
+    <div class="ability-name">cha</div>
+    {% stat stats.cha %}
+  </div>
+</div>  
+<div class="other row">
+  <div class="box">
+    <div class="box-title">Hit Points</div>
+    <div class="box-details">
+      <span class="">{{ stats.hp.current}}</span>
+      / <span class="">{{ stats.hp.max }}</span>
+        ( <span class="">{{ stats.hp.temp}}</span> )
+    </div>    
+  </div>
+  <div class="box">
+    <div class="box-title">Armor Class</div>
+    <div class="box-details">{{ stats.ac }}</div>
+  </div>
+  <div class="box">
+    <div class="box-title">Prof Bonus</div>
+    <div class="box-details">{{ stats.prof_bonus }}</div>
+  </div>
+  <div class="box">
+    <div class="box-title">Init</div>
+    <div class="box-details">{{ stats.init }}</div>
+  </div>
+  <div class="box">
+    <div class="box-title">Perception</div>
+    <div class="box-details">{{ senses.passive_perception }}</div>
+  </div>
+</div>

@@ -19,8 +19,24 @@ h1 {
 	@apply text-4xl font-bold mb-5;
 }
 
+h1.character-title {
+	@apply mb-0;
+}
+
+h1.character-title + small {
+	@apply text-sm text-purple-500;
+}
+
+h1.character-title + small + h2 {
+	@apply mt-3;
+}
+
+h2 {
+	@apply text-3xl font-bold;
+}
+
 /** bottom margin of block level elements */
-header, main, .hero, p, hr {
+header, main, .hero, .row, p, hr, h2, h3 {
 	@apply mb-3;
 }
 
@@ -44,3 +60,58 @@ a.button:hover, a.button:focus {
 .hero p {
 	@apply text-lg mb-10;
 }
+
+.row {
+	@apply md:flex;
+}
+
+.row > * {
+	@apply md:pr-3 last:md:pr-0;
+}
+
+.abilities {
+	@apply flex flex-wrap sm:flex-nowrap mb-5;
+}
+
+.other {
+	@apply pt-3;
+}
+.ability-block {
+	@apply w-1/6;
+}
+
+.box {
+	@apply max-w-fit pr-0;;
+}
+
+.ability-block, .box {
+	@apply text-center border border-purple-500 rounded-lg mr-3 last:mr-0;
+}
+
+.box-title {
+	@apply px-3 w-full;
+}
+
+.ability-name, .box-title {
+	@apply uppercase font-bold bg-purple-50 text-purple-900 rounded-t-lg;
+}
+
+.ability-score {
+	@apply flex flex-col-reverse px-3 pt-1 pb-5 relative;
+}
+
+.ability-score .stat {
+	@apply border border-purple-900 bg-purple-50 rounded-full py-1 px-3 w-14;
+	@apply absolute;
+	top: 75%;
+	left: calc(50% - 1.75rem)
+}
+
+.ability-score .modifier, .box-details {
+	@apply  text-3xl;
+}
+
+.box-details {
+	@apply px-3 pt-1 pb-2;
+}
+
