@@ -1,0 +1,34 @@
+<div class="carver-calendar" 
+  x-data="{data: { timestamp: 0, phases:[], phase: 'XX', type: true, day: '00', month: '00', year:'000', hour: '00', min: '00', sec: '00', ms: '000'}}" 
+  x-init="setInterval(() => {
+    data = carverTime()
+  }, 1)"
+> 
+  <table>
+    <thead>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+      </tr>
+    </thead>
+    <tbody>
+    <template x-for="i in 5">
+      <tr>
+        <template x-for="j in 8">
+          <td :class="parseInt(data.day) === ((i-1)*8)+j ? 'border border-purple-800' : ''">
+            <div class="flex justify-center text-center">
+              <div class="w-1/2 p-1 border-r border-purple-300" x-text="((i-1)*8)+j"></div>
+              <div class="w-1/2 p-1"x-text="data.phases[((i-1)*8)+j-1]"></div>
+            </div>
+          </td>
+        </template>
+      </tr>
+    </tbody>
+  </table>
+</div>

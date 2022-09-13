@@ -9,5 +9,5 @@ module.exports = {
 		},
 	},
 	plugins: [],
-	content: ['src/**/*.njk', 'src/**/*.js']
+	content: ['src/**/*.njk', 'src/**/*.js', 'src/**/*.html']
 }

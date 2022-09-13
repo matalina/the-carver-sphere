@@ -34,5 +34,5 @@ const describe = (details, background, faith) => {
 module.exports = {
   button,
   stat,
-  describe
+  describe,
 };

@@ -6,7 +6,7 @@
             <!-- Capture the CSS content as a Nunjucks variable -->
             {% set css %}{% include "styles.min.css" %}{% endset %}
             <style>
-                {{css | safe}}
+                {{css | safe }}
             </style>
         {% else %}
             <link rel="stylesheet" href="/static/styles.min.css">
@@ -19,6 +19,8 @@
         <noscript>
             <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
         </noscript>
+        <script src="/js/alpine.js"></script>
+        <script src="/static/app.min.js" defer></script>
     </head>
     <body>
         <div id="app">
@@ -40,5 +42,4 @@
             </div>
         </div>
     </body>
-    <script src="/static/app.min.js" defer></script>
 </html>

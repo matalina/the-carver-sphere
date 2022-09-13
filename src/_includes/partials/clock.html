@@ -1,0 +1,43 @@
+<div class="carver-clock" 
+  x-data="{data: { timestamp: 0, phase: 'XX', type: true, day: '00', month: '00', year:'000', hour: '00', min: '00', sec: '00', ms: '000'}}" 
+  x-init="setInterval(() => {
+    data = carverTime()
+  }, 1000)"
+>
+  <div class="w-1/2 mx-auto rounded-lg border border-purple-800">
+    <div class="flex items-center  p-3">
+      <div class="moonType flex flex-col mr-5 w-1/2 items-center">
+        <div class="phase grow text-4xl font-bold">
+          <span class="p-5" x-text="data.phase"></span>
+        </div>
+        <div class="dayType bg-purple-200 text-center p-1 w-1/2">
+          <span x-show="data.type">rest day</span>
+          <span x-show="!data.type">work day</span>
+        </div>
+      </div>
+      <div class="date w-1/2 flex flex-col">
+        <div class="monthDay flex  items-center">
+          <div class="day flex flex-col w-1/2 items-center">
+            <div class="text-xs text-center uppercase">Day</div> 
+            <div class="text-4xl text-center" x-text="data.day"></div>
+          </div>
+          <div  class="month flex flex-col w-1/2 items-center">
+            <div class="text-xs text-center uppercase">Month</div> 
+            <div class="text-4xl text-center" x-text="data.month"></div>
+          </div>
+        </div>
+        <div class=" year flex flex-col items-center">
+          <div class="text-xs text-center uppercase">Year</div>
+          <div class="flex text-4xl">
+            <div x-text="data.year"></div> 
+            <strong class="ml-3">LC</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-4xl text-center">
+      <span x-text="data.hour"></span>:<span x-text="data.min"></span>:<span x-text="data.sec"></span>
+    </div>
+    <div class="text-xs text-center italic bg-purple-50 p-1 rounded-b-lg"><span x-text="new Date(data.now)"></span></div>
+  </div>
+</div>

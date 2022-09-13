@@ -35,8 +35,20 @@ h2 {
 	@apply text-3xl font-bold;
 }
 
+h3 {
+	@apply text-2xl font-bold;
+}
+
+li {
+	@apply list-item list-inside list-disc;
+}
+
+nav li {
+	@apply block list-none;
+}
+
 /** bottom margin of block level elements */
-header, main, .hero, .row, p, hr, h2, h3 {
+header, main, .hero, .row, table, p, hr, h2, h3 {
 	@apply mb-3;
 }
 
@@ -52,6 +64,19 @@ a.button {
 }
 a.button:hover, a.button:focus {
 	@apply bg-purple-900;
+}
+
+table {
+	@apply w-full;
+}
+th {
+	@apply border-b border-purple-800 text-purple-800 p-2;
+}
+td {
+	@apply py-1 px-2;
+}
+tr:hover {
+	@apply bg-purple-50;
 }
 
 .hero {
@@ -115,3 +140,18 @@ a.button:hover, a.button:focus {
 	@apply px-3 pt-1 pb-2;
 }
 
+.note {
+	@apply p-5 m-3;
+}
+
+#calendar tr td:nth-child(4n + 1), #calendar th:nth-child(4n) {
+	@apply bg-purple-50;
+}
+
+#calendar tr:hover {
+	@apply bg-transparent;
+}
+
+#calendar td:hover, #calendar tr td:nth-child(4n + 1):hover {
+	@apply bg-purple-100;
+}
