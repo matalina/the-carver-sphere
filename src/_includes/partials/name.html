@@ -1,0 +1,26 @@
+<div 
+  x-data="{ 
+    name: '', 
+    resetName: () => {
+      name = 'clear';
+      localStorage.removeItem('name');
+    } 
+  }"
+  x-init="() => {
+    window.onload = () => {
+      if ( !localStorage.getItem('name')) {
+        name = window.prompt('What is your characters name?');
+        if (name) {
+          localStorage.setItem('name', name);
+        }
+      }
+      name = localStorage.getItem('name', ''); 
+    }
+  }"
+  class="h-[800px] flex items-center justify-center bg-purple-400 mb-3 rounded-lg text-purple-900"
+>
+  <div class="flex place-items-start">
+    <div class="text-9xl text-center" x-text="name"></div>
+    <button x-on:click="resetName" class="border border-purple-800 bg-purple-50 text-purple-800 rounded-full px-2 px-1 hover:bg-purple-300">X</button>
+  </div>
+</div>

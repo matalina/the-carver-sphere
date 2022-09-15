@@ -43,13 +43,17 @@ li {
 	@apply list-item list-inside list-disc;
 }
 
-nav li {
-	@apply block list-none;
+/** bottom margin of block level elements */
+header, main, .hero, .row, table, p, hr, h2, h3, ol, ul {
+	@apply mb-3;
 }
 
-/** bottom margin of block level elements */
-header, main, .hero, .row, table, p, hr, h2, h3 {
-	@apply mb-3;
+nav ul {
+	@apply mb-0;
+}
+
+nav li {
+	@apply block list-none;
 }
 
 a {

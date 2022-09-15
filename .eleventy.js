@@ -1,4 +1,6 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const markdownIt = require("markdown-it");
+const markdownItAnchor= require("markdown-it-anchor");
 
 const filters = require('./utils/filters.js');
 const transforms = require('./utils/transforms.js');
@@ -7,6 +9,16 @@ const shortcodes = require('./utils/shortcodes.js');
 const paired = require('./utils/paired-shortcodes.js');
 
 module.exports = function (eleventyConfig) {
+	const options = {
+    html: true
+  };
+	const markdownLibrary = markdownIt(options).use(markdownItAnchor, {
+		
+	});
+
+  eleventyConfig.setLibrary("md", markdownLibrary);
+
+
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 	// Folders to copy to build dir (See. 1.1)
 	eleventyConfig.addPassthroughCopy("src/static");

@@ -7,7 +7,9 @@ tags: ['dm']
 
 # {{ title }}
 
-![Black Myst Tablet](../../images/tablet.jpg)
+A tablet found in the The Caverns of Time with an inscription carved into the granite stone.
+
+![Black Myst Tablet](../../images/item-black-myst-tablet.jpg)
 
 **Translate to:** Forsake the token with greed and enter the myst. To return to the home land walk the unit circle in then triplets. odd left even right two digit paces
 
@@ -38,6 +40,6 @@ _Walk counter clockwise three times following the digits of PI's decimal places_
 1. left 5 paces
 1. left 3 paces
 
-![Pi Tablet](../../images/pi.jpg)
+![Pi Tablet](../../images/item-pi-tablet.jpg)
 
 **Translates to:** Pi (3.1415926535 8979323846)

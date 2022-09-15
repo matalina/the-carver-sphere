@@ -7,5 +7,5 @@ tags: ['dm']
 
 # {{ title }}
 
-![Runic Alphabet](../../images/runes.jpg)
+![Runic Alphabet](../../images/mechanic-runes.jpg)
 
