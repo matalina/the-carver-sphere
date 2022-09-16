@@ -11,11 +11,68 @@ tags: ['dm']
 
 [![Map of Saint Carver Village](../../images/text-saint-carver.jpg)](../../images/text-saint-carver.jpg)
 
+ B   | S  | #  | Special         | A  | 15 | 64 | Family          | NPCs 
+:----|:---|:---|:----------------|:---|:---|:---|:----------------|:-----
+ 1   | L  | 4  | Haunted House   | 4  |    |    |                 | [Household](./vampire-lair/#occupants) 
+ 2   | M  | 6  |                 | 5  | 1  |    |                 | [Saprys](./npcs.md/#saprys)
+ 3   | L  | 5  |                 | 2  | 3  |    |                 |
+ 4   | L  | 14 | Hostle          | 12 |    | 2  |                 | [Resmalis](./npcs/#resmalis)
+ 5   | L  | 3  |                 | 2  | 1  |    |                 |
+ 6   | M  | 4  |                 | 3  | 1  |    |                 |
+ 7   | L  | 10 | Orphanage       |    | 9  | 1  |                 |
+ 8   | L  | 4  |                 | 3  | 1  |    |                 |
+ 9   | M  | 5  |                 | 2  |    |    |                 |
+ 10  | M  | 4  |                 | 2  | 1  | 1  |                 |
+ 11  | S  | 2  |                 | 2  |    |    |                 | [Valatix](./npcs/#valatix)
+ 12  | M  | 4  |                 | 3  | 1  |    |                 |
+ 13  | M  | 4  |                 | 2  | 2  |    |                 |
+ 14  | S  | 1  |                 | 3  | 1  |    |                 |
+ 15  | S  | 1  |                 | 3  | 1  |    |                 |
+ 16  | L  | 4  |                 | 3  | 1  |    |                 |
+ 17  | XL | 7  | Founding Family | 5  | 1  | 1  | Walsh           | [Founding Family](#founding-family) 
+ 18  | L  | 4  |                 | 2  | 2  |    |                 |
+ 19  | M  | 5  |                 | 2  | 2  | 1  |                 |
+ 20  | L  | 4  |                 | 3  | 1  |    |                 |
+ 21  | L  | 4  |                 | 2  | 2  |    |                 |
+ 22  | M  | 6  |                 | 3  | 2  | 1  |                 |
+ 23  | L  | 2  |                 | 2  |    |    |                 |
+ 24  | S  | 1  |                 | 1  |    |    |                 |
+ 25  | S  | 2  |                 | 1  |    | 1  |                 |
+ 26  | L  | 4  |                 | 1  |    |    |                 |
+ 27  | L  | 4  |                 | 1  |    |    |                 |
+ 28  | L  | 1  |                 | 1  |    |    |                 |
+ 29  | M  | 3  |                 | 1  |    |    |                 |
+ 30  | L  | 4  |                 | 1  |    |    |                 |
+ 31  | M  | 3  |                 | 1  |    |    |                 |
+ 32  | S  | 1  |                 | 1  |    |    |                 | [Wolstine](./npcs/#wolstine)
+ 33  | M  | 4  |                 | 1  |    |    |                 |
+ 34  | M  | 3  |                 | 1  |    |    |                 |
+ 35  | S  | 1  |                 | 2  | 1  |    |                 |
+ 36  | S  | 1  |                 | 2  | 2  |    |                 |
+ 37  | S  | 1  |                 | 2  | 1  |    |                 |
+ 38  | L  | 4  |                 | 3  | 1  |    |                 | [Omaris Sylvaranth](./npcs/#omaris-sylvaranth)
+ 39  | M  | 6  |                 | 2  | 3  | 1  |                 |
+ 40  | M  | 7  |                 | 4  | 3  |    |                 |
+ 41  | S  | 1  |                 | 2  | 1  | 1  |                 |
+ 42  | S  | 1  |                 | 2  | 1  |    |                 |
+ 43  | S  | 3  |                 | 2  | 1  |    |                 |
+ 44  | M  | 5  |                 | 2  | 2  | 1  |                 |
+ VWI |    | 12 | Inn             | 8  | 2  | 2  |                 | [The Inn](./violet-wolf-inn/#occupants) 
+ G   |    | 12 | Guard           | 12 |    |    |                 | [Guards](#guards) 
+ GH  |    | 1  | Guild Hall      | 1  |    |    |                 | Adventurer Guild Leader 
+ B   |    | 7  | Blacksmith      | 5  | 1  | 1  |                 |
+ T   |    | 3  | Tanner          | 2  | 1  |    |                 |
+ M   |    | 3  | Mason           | 2  | 1  |    |                 |
+ C   |    | 3  | Carpenter       | 2  | 1  |    |                 |
+ W   |    | 6  | Miller          | 4  | 2  |    |                 |
+ HL  |    | 1  | Hunter's Lodge  | 1  |    |    |                 | [Nepheron](./npcs/#nepheron) 
+ CH  |    | 2  | Community Hall  | 2  |    |    |                 | [Brylny](./npcs/#brylny)<br/>[Brydiane](./npcs/#brydiane) 
+
 ## The Magistrate (1)
 
 Balrus Walsh, the Magistrate,  rules over domestic and legal matters.  They hold office hours from 08:00 to 18:00 during Work Days.
 
-## Guards (32)
+## Guards
 
 There are 4 towers manned by 1 guard at all hours in 8 hour shifts.  There are 2 village patrols working in 8 hour shifts. Each guard works 3 days and then is off the fourth.  They hold each post on every shift in a rotating pattern.  
 
@@ -30,6 +87,17 @@ There are 4 towers manned by 1 guard at all hours in 8 hour shifts.  There are 2
 * Valatix (G14)
 * Calji Musgraben (G28)
 
+### The Guard House
+
+Serves has a small public lobby, the room to the left of the lobby is where the magistrate holds court and can be found working most days.  To the left of the lobby is a set of stairs.  In the basement is a spelled iron holding cell.
+
+Upstairs opens up into a break room for the guards.  Beyond the break room is the Guards barracks.
+
+The break room consists of two large tables, and a counter for preparing and storing food.  There is a large cast iron cooking stove to the  right of the stairs.
+
+The guard barracks is a 21' x 21' room with 6 3-tier bunks with their short ends lining the wall.  Each bunk is separated by a set of foot lockers attached at bed level for each bunk.  
+
+Currently 10 guards make the barracks their home, while Gallin and Calji use their stronghold's receptacles placed on a shelf above the counter in the break room.
 
 ## The Chruch of the Many Faced God (1)
 
@@ -40,7 +108,7 @@ There is one Preistess of the Many Faced God, she holds worship
 ## School House (2)
 
 * Brylny
-* School Teacher
+* School Teacher - Mrs. Walsh
 
 ## The Market (7)
 
@@ -60,7 +128,7 @@ There is one Preistess of the Many Faced God, she holds worship
 * Rancher
 * Rancher
 
-## Guild Hall (6)
+## Guild Hall
 
 * Adventurer Guild Leader
 * Theives Guild Leader (hidden)
@@ -175,3 +243,11 @@ There is one Preistess of the Many Faced God, she holds worship
 * Harvester
 * Harvester
 * Harvester
+
+## Founding Family
+
+* Balrus Walsh
+* Mrs. School Teach
+* x3 Older Children
+* 13 year
+* Grandpa Walsh

@@ -12,6 +12,18 @@ tags: ['dm']
 
 ## Important NPCs
 
+* Adventurer Guild Leader
+* Weapons Merchant
+* Armor Merchant
+* General Merchant
+* Food Merchant
+* Clothes Merchant
+* Theives Guild Leader (hidden)
+* Fighter Guild Leader
+* Circle of Magic Guild Leader
+* Blacksmith
+* Leatherworker
+
 ### The Magistrate, Balrus Walsh
 
 Male Human Lawful Good Diplomat
@@ -208,19 +220,15 @@ Buried with Sharmin:
 
 ### Omaris Sylvaranth
 
-Level 11 Eladrin (Variant) Artificer
+Level 11 Eladrin Battle Smith Artificer 
 
 Current Occupation: Sells Rare Goods at the General Market in Saint Carver
 
-For Hire: 22g/day
-
 ### Calji Musgraben
 
-Level 14 Deep Gnome Barbarian
+Level 14 Deep Gnome Path of the Beserker Barbarian
 
 Current Occupation: Guard
-
-For Hire: 28 g/day
 
 ### Brydiane
 
@@ -228,21 +236,17 @@ Level 14 Half-elf Drow Life Domain Cleric
 
 Current Occupation: High Priestess of the Many Faced God in Saint Carver
 
-For Hire: 30g/day
-
 ### Chuck
 
-Level 10 Githyanki Durid
+Level 10 Githyanki Circl of Dreams Durid
 
-Current Occupation: Hermit
-
-For Hire: 20g/day
+Current Occupation: Hermit (Naturalist Guild Leader)
 
 ### Resanys
 
 Level 12 Shifter College of Whispers Bard
 
-Current Occupation: Innkeeper
+Current Occupation: Innkeeper/Bard (2nd shift)
 
 ### Nepheron
 
@@ -250,31 +254,23 @@ Level 13 Astral Elf Drakewarden Ranger
 
 Current Occupation: Hunter
 
-For Hire: 26g/day
-
 ### Brylny
 
 Level 11 Fairy Order of Scribes Wizard
 
 Current Occupation: School Teacher
 
-For Hire: 22g/day
-
 ### Wolstine
 
 Level 15 Kobold Rogue Assassin
 
-Current Occupation: Leader of the Cult of the Red Dragon
-
-For Hire: 30g/day
+Current Occupation: Miner (Leader of the Cult of the Red Dragon)
 
 ### Saprys
 
-Level 12 Fire Genasi Sorcerer
+Level 12 Fire Genasi Clockwork Soul Sorcerer
 
 Current Occupation: Magic Goods seller
-
-For Hire: 24g/day
 
 ### Valatix
 
@@ -292,6 +288,4 @@ Current Occupation: Guard
 
 Level 11 Drow Half-Elf Way of the Ascendant Dragon Monk
 
-Current Occupation: (Cultist) Harvester
-
-For Hire: 22g/day
+Current Occupation: Tender (Cultist) 
