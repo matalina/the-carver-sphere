@@ -18,7 +18,7 @@ The Violent Wolf Inn sit center of the village.
 
 Lush farmland to the south grow all the crops that the villagers could ever need.  Since there are no seasons, they plant the fields in quater cycles.  At any given time there is always a crop to harvest, land to till and seeds to sow.
 
-To the north, the green grass of the plateau looking over the ravine is a host to the village's free range live stock.  The livestock mingle with wild prarie animals and are hunted by the wolves and other predators.  Daily hunting patrols and the shepherds keep the village fully stocked with animal proteins.
+To the south, the green grass of the plateau looking over the ravine is a host to the village's free range live stock.  The livestock mingle with wild prarie animals and are hunted by the wolves and other predators.  Daily hunting patrols and the shepherds keep the village fully stocked with animal proteins.
 
 Saint Carver has a small market area where an adventurer can find many sorts of daily items and even rare and magical ones.  The market is supplied once a month by a Traveling Merchant who brings in a caravan of new workers, adventures and stock.  Special orders can be placed with the merchants and will be passed on to the Peddleer on his next arrival.  
 

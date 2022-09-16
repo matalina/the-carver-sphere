@@ -7,13 +7,15 @@ tags: ['dm']
 
 # {{ title }}
 
-**Population:** 1 + 32 + 1 + 2 + 7 + 6 + 24 + 3 + 4 + 28 = 108
+**Population:** 217 (59 under 15 & 15 over 64)
 
-## The Magistrate
+[![Map of Saint Carver Village](../../images/text-saint-carver.jpg)](../../images/text-saint-carver.jpg)
 
-The Magistrate rules over domestic and legal matters.  They hold office hours from 08:00 to 18:00 during Work Days.
+## The Magistrate (1)
 
-## Guards
+Balrus Walsh, the Magistrate,  rules over domestic and legal matters.  They hold office hours from 08:00 to 18:00 during Work Days.
+
+## Guards (32)
 
 There are 4 towers manned by 1 guard at all hours in 8 hour shifts.  There are 2 village patrols working in 8 hour shifts. Each guard works 3 days and then is off the fourth.  They hold each post on every shift in a rotating pattern.  
 
@@ -29,18 +31,18 @@ There are 4 towers manned by 1 guard at all hours in 8 hour shifts.  There are 2
 * Calji Musgraben (G28)
 
 
-## The Chruch of the Many Faced God
+## The Chruch of the Many Faced God (1)
 
 There is one Preistess of the Many Faced God, she holds worship
 
 * Brydiane
 
-## School House
+## School House (2)
 
 * Brylny
 * School Teacher
 
-## The Market
+## The Market (7)
 
 * Omaris Sylvaranth - Rare Goods
 * Saprys - Magic Goods
@@ -50,12 +52,15 @@ There is one Preistess of the Many Faced God, she holds worship
 * Clothes
 * General Goods
 
-## Hunter's Lodge
+## Hunter's Lodge (5)
 
 * Nepheron
 * Hunter
+* Hunter
+* Rancher
+* Rancher
 
-## Guild Hall
+## Guild Hall (6)
 
 * Adventurer Guild Leader
 * Theives Guild Leader (hidden)
@@ -64,7 +69,7 @@ There is one Preistess of the Many Faced God, she holds worship
 * Wolstine - Cult of the Red Dragon Leader (hidden)
 * Naturalist Guild Leader
 
-## The Violet Wolf Inn
+## The Violet Wolf Inn (21)
 
 * Resanys - Innkeeper
 * Head Cook 
@@ -91,20 +96,20 @@ There is one Preistess of the Many Faced God, she holds worship
 * Bard
 * Bard
 
-## Dwarven Blacksmith
+## Dwarven Blacksmith (3)
 
 * Blacksmith
 * Journeyman
 * Novice (daughter)
 
-## Tanning & Leatherwork
+## Tanning & Leatherwork (4)
 
 * Tanner
 * Leatherworker
 * Tanner Apprentice
 * Leatherworker Apprentice
 
-## Textiles & Construction
+## Textiles & Construction (38)
 
 * Miller 
 * Miller Apprentice
@@ -134,13 +139,39 @@ There is one Preistess of the Many Faced God, she holds worship
 * Heavy Labor
 * Heavy Labor
 * Heavy Labor
+* Worker
+* Worker
+* Worker
+* Worker
+* Worker
+* Worker
+* Worker
+* Worker
+* Worker
+* Worker
 
-## Food Production
+## Food Production (23)
 
 * Butcher
 * Butcher's Apprentice
 * Lead Agriculturalist
-* Tiller (x?)
-* Planters (x?)
-* Tenders (x?)
-* Harvesters (x?)
+* Tiller 
+* Tiller
+* Tiller
+* Tiller
+* Tiller
+* Planter
+* Planter
+* Planter
+* Planter
+* Planter
+* Tender
+* Tender
+* Tender
+* Tender
+* Tender
+* Harvester
+* Harvester
+* Harvester
+* Harvester
+* Harvester
