@@ -26,18 +26,18 @@ tags: ['dm']
 * [Leatherworker, Lehkraskol](#leatherworker-lehkraskol)
 * [Whiff](#whiff)
 * [Sharmin](#sharmin)
-* [Omaris Sylvaranth](#omaris-sylvaranth)
-* [Calji Musgraben](#calji-musgraben)
-* [Brydiane](#brydiane)
-* [Chuck](#chuck)
-* [Resanys](#resanys)
-* [Nepheron](#nepheron)
-* [Brylny](#brylny)
-* [Wolstine](#wolstine)
-* [Saprys](#saprys)
-* [Valatix](#valatix)
-* [Gallin Cobblelob](#gallin-cobblelob)
-* [Resmalis](#resmalis)
+* [Omaris Sylvaranth](#rare-goods-omaris-sylvaranth)
+* [Calji Musgraben](#guard-calji-musgraben)
+* [Brydiane](#priestess-brydiane)
+* [Chuck](#naturalist-guild-leader-chuck)
+* [Resanys](#innkeeper-resanys)
+* [Nepheron](#hunter-nepheron)
+* [Brylny](#school-teacher-brylny)
+* [Wolstine](#miner-wolstine-leader-of-the-red-dragon-cult)
+* [Saprys](#magic-goods-seller-saprys)
+* [Valatix](#guard-valatix)
+* [Gallin Cobblelob](#guard-gallin-cobblelob)
+* [Resmalis](#farmer-resmalis-cultist)
 
 ## Important NPCs
 
@@ -804,7 +804,7 @@ Buried with Sharmin:
 
 ## Former Adventures
 
-### Omaris Sylvaranth
+### Rare Goods, Omaris Sylvaranth
 
 Level 11 Winter Eladrin Battle Smith Artificer Neutral
 
@@ -826,7 +826,7 @@ He has a beautiful singing voice.
 He has a pet cat named Noodle.
 He stretches the truth to tell a good story.
 
-### Calji Musgraben
+### Guard, Calji Musgraben
 
 Level 14 Rock Gnome Path of the Beserker Barbarian Neutral Good
 
@@ -848,7 +848,7 @@ He explains everything in great detail.
 He has a beautiful singing voice.
 He wants to know every side of a story before expressing an opinion.
 
-### Brydiane
+### Priestess, Brydiane
 
 Level 14 Half-elf Drow Life Domain Cleric Neutral
 
@@ -868,7 +868,7 @@ She is very bow-legged.
 She takes everything at face-value.
 She cares about her friends and will do anything for them.
 
-### Chuck
+### Naturalist Guild Leader, Chuck 
 
 Level 10 Stout Halfling Circle of Dreams Durid Lawful Neutral
 
@@ -884,7 +884,7 @@ He has a bland tattoo of a rabbit on his right hand and an unfinished tattoo of 
 **Sexual Orientation:** Straight  
 **Relationship Status:** In a relationship
 
-### Resanys
+### Innkeeper, Resanys
 
 Level 12 Doglike-werewolf Shifter College of Whispers Bard
 
@@ -906,7 +906,7 @@ He is incredibly allergic to gluten.
 He is materialistic.
 He has a joke for every situation.
 
-### Nepheron
+### Hunter, Nepheron
 
 Level 13 Astral Elf Drakewarden Ranger Neutral
 
@@ -929,7 +929,7 @@ He collects labels.
 
 
 
-### Brylny
+### School Teacher, Brylny
 
 Level 11 Fairy Order of Scribes Wizard
 
@@ -951,7 +951,7 @@ She has no self-confidence.
 She values honor above all.
 She always carries food in her pockets.
 
-### Wolstine
+### Miner, Wolstine (Leader of the Red Dragon Cult)
 
 Level 15 Kobold Rogue Assassin
 
@@ -971,7 +971,7 @@ He is incredibly color blind.
 He rarely speaks.
 He appears conservative, but secretly likes to party and go wild.
 
-### Saprys
+### Magic Goods Seller, Saprys
 
 Level 12 Fire Genasi Clockwork Soul Sorcerer
 
@@ -992,7 +992,7 @@ He can't stand laziness.
 He is secretly captivated by humans.
 He is heavily addicted to an exotic drug.
 
-### Valatix
+### Guard, Valatix
 
 Level 10 Tiefling Paladin Oathbreaker Chaotic Neutral 
 
@@ -1013,7 +1013,7 @@ He can't stand laziness.
 He has a constant wanderlust and is unable to live at the same place for more than a few months
 
 
-### Gallin Cobblelob
+### Guard, Gallin Cobblelob
 
 Level 12 Forest Gnome Fighter Samuri Lawful Neutral 
 
@@ -1034,7 +1034,7 @@ He judges people by their actions, not their words.
 He has a fascination with explosions.
 He doesn't like his profession, his has always dreamed of becoming a Miner.
 
-### Resmalis
+### Farmer, Resmalis (cultist)
 
 Level 11 Drow Half-Elf Way of the Ascendant Dragon Monk Neutral Good
 
