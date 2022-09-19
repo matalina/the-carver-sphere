@@ -10,6 +10,34 @@ tags: ['dm']
 * [Carver Saint d'Clair](https://www.dndbeyond.com/characters/82577043)
 * [Ignax, the Ancient Red Dragon](https://www.dndbeyond.com/characters/82577043)
 * [Vampire](https://www.dndbeyond.com/monsters/17043-vampire)
+* [The Magistrate, Balrus Walsh](#the-magistrate-balrus-walsh)
+* [The Fortune Teller, Akibrus York](#the-fortune-teller-akibrus-york)
+* [The Traveling Merchant, Melath Shaeremae](#the-traveling-merchant-melath-shaeremae)
+* [Weapons Merchant, Rorik Eslinger](#weapons-merchant-rorik-eslinger)
+* [Adventurer Guild Leader, Laimus Idlewind](#adventurer-guild-leader-laimus-idlewind)
+* [Armor Merchant, Kogsak Keepforge](#armor-merchant-kogsak-keepforge)
+* [General Merchant, Axelle Stockton](#general-merchant-axelle-stockton)
+* [Food Merchant, Zurpigig](#food-merchant-zurpigig)
+* [Clothes Merchant, Avzank](#clothes-merchant-avzank)
+* [Theives Guild Leader (hidden), Jenna Unggetid](#theives-guild-leader-hidden-jenna-unggetid)
+* [Fighter Guild Leader, Rammir Yaeger](#fighter-guild-leader-rammir-yaeger)
+* [Circle of Magic Guild Leader, Bethor](#circle-of-magic-guild-leader-bethor)
+* [Blacksmith, Braendryn Boneshatter](#blacksmith-braendryn-boneshatter)
+* [Leatherworker, Lehkraskol](#leatherworker-lehkraskol)
+* [Whiff](#whiff)
+* [Sharmin](#sharmin)
+* [Omaris Sylvaranth](#omaris-sylvaranth)
+* [Calji Musgraben](#calji-musgraben)
+* [Brydiane](#brydiane)
+* [Chuck](#chuck)
+* [Resanys](#resanys)
+* [Nepheron](#nepheron)
+* [Brylny](#brylny)
+* [Wolstine](#wolstine)
+* [Saprys](#saprys)
+* [Valatix](#valatix)
+* [Gallin Cobblelob](#gallin-cobblelob)
+* [Resmalis](#resmalis)
 
 ## Important NPCs
 
@@ -744,7 +772,7 @@ Survival: 0
 
 ## Dead NPCs 
 
-### Wiff 
+### Whiff 
 
 Level 4
 
@@ -1001,7 +1029,7 @@ He is easily out of breath.
 **Sexual Orientation:** Straight  
 **Relationship Status:** In a relationship
 
-**Traits:**He is very patient.
+**Traits:** He is very patient.
 He judges people by their actions, not their words.
 He has a fascination with explosions.
 He doesn't like his profession, his has always dreamed of becoming a Miner.
